@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Criando Tabelas</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div>
+    <h1>HTML Formação Básica</h1>
+    <h2>Desafio: Criando tabelas</h2>
+    <h3>1. Tabela simples</h3>
+    <table id="tabela_estados">
+        <thead>
+            <tr>
+                <td>Bandeira</td>
+                <td>Estado</td>
+                <td>Sigla</td>
+                <td>População</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="sao_paulo_200.png" alt="Bandeira do Estado de São Paulo" width="80"></td>
+                <td>São Paulo</td>
+                <td>SP</td>
+                <td>44.169.350</td>
+            </tr>
+            <tr>
+                <td><img src="rio_de_janeiro_200.png" alt="Bandeira do Estado de Rio de Janeiro" width="80"></td>
+                <td>Rio de Janeiro</td>
+                <td>RJ</td>
+                <td>16.497.395</td>
+            </tr>
+            <tr>
+                <td><img src="minas_gerais_200.jpg" alt="Bandeira do Estado de Minas Gerais" width="80"></td>
+                <td>Paraná</td>
+                <td>PR</td>
+                <td>11.112.062</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>2. Tabela com células mescladas na horizontal</h3>
+    <table id="tabela_mesclada_horizontal">
+        <thead>
+        <tr>
+            <td>Estado</td>
+            <td colspan="3">Maiores 3 cidades do estado</td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Acre</td>
+                <td>Rio Branco</td>
+                <td>Cruzeiro do Sul</td>
+                <td>Sena Madureira</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>Maceió</td>
+                <td>Arapiraca</td>
+                <td>Rio Largo</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>Macapá</td>
+                <td>Santana</td>
+                <td>Laranjal do Jari</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>3. Tabela com células mescladas na vertical</h3>
+    <table id="tabela_mescalada_vertical">
+        <thead>
+            <tr>
+                <td>Região</td>
+                <td>Estados da Região</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">Centro-Oeste</td>
+            </tr>
+            <tr><td>Distrito Federal</td></tr>
+            <tr><td>Goiás</td></tr>
+            <tr><td>Mato Grosso</td></tr>
+            <tr><td>Mato Grosso do Sul</td></tr>
+            <tr>
+                <td rowspan="5">Sudeste</td>
+            </tr>
+            <tr><td>Espírito Santo</td></tr>
+            <tr><td>Minas Gerais</td></tr>
+            <tr><td>Rio de Janeiro</td></tr>
+            <tr><td>São Paulo</td></tr>
+            <tr>
+                <td rowspan="4">Sul</td>
+            </tr>
+            <tr><td>Paraná</td></tr>
+            <tr><td>Rio Grande do Sul</td></tr>
+            <tr><td>Santa Catarina</td></tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
